@@ -2,9 +2,9 @@ pages/CartPage.class
 tests/PurchaseTest.class
 utils/ExtentManager.class
 utils/ScreenshotUtils.class
-pages/InventoryPage.class
 utils/ConfigReader.class
 pages/CheckoutPage.class
+pages/ProductPage.class
 tests/LoginTest.class
 listeners/TestListener.class
 utils/WaitUtils.class

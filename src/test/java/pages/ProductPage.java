@@ -2,13 +2,13 @@ package pages;
 
 import org.openqa.selenium.*;
 
-public class InventoryPage {
+public class ProductPage {
 
     WebDriver driver;
 
     By productTitle = By.className("title");
 
-    public InventoryPage(WebDriver driver) {
+    public ProductPage(WebDriver driver) {
         this.driver = driver;
     }
 

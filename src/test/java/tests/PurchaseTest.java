@@ -27,7 +27,7 @@ public class PurchaseTest extends BaseTest {
         DriverFactory.getDriver().findElement(By.id("login-button")).click();
 
         // Add item
-        InventoryPage inventory = new InventoryPage(DriverFactory.getDriver());
+        ProductPage inventory = new ProductPage(DriverFactory.getDriver());
         ReportManager.logInfo("Adding item to cart");
         inventory.addItemToCart();
         ReportManager.logInfo("Navigating to cart");

@@ -1,0 +1,38 @@
+# Compiled files
+*.class
+
+# Logs
+*.log
+
+# Maven
+target/
+
+# Gradle
+build/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Test reports
+test-output/
+reports/
+allure-results/
+screenshots/
+
+# Environment files
+.env
